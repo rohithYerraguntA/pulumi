@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Select Pulumi Stack
-        run: pulumi stack select rohith06/pulumi-lab/dev
+        run: pulumi stack select pulumi-lab
 
       - name: Deploy with Pulumi
         run: pulumi up --yes
